@@ -1,0 +1,123 @@
+/* Estilo Global */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("img/plano.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #abcdfc;
+  font-family: font;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: font;
+  src: url(fonts/zemke-hand-itc.ttf);
+}
+
+/* Componentes de Estilização */
+
+.test {
+  display: flex;
+  height: 450px;
+  background-color: #2f6e8e;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 10px;
+}
+
+.container {
+  background-color: #2f6e8e;
+  width: 400px;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .banner img {
+  width: 150px;
+  border-radius: 100%;
+  margin-top: 80px;
+  padding: 5px;
+}
+
+form {
+  width: 400px;
+  height: 450px;
+  background-color: #5b9aa0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 10px;
+}
+
+form .posi {
+  width: 300px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+form .posi input {
+  border-radius: 5px;
+  height: 40px;
+}
+
+#data {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+  height: 40px;
+}
+
+#label {
+  background-color: aliceblue;
+  color: black;
+  height: 40px;
+  border-radius: 5px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+
+form .posi button a {
+  text-decoration: none;
+  color: #abcdfc;
+}
+
+form .posi button {
+  width: 100px;
+  height: 80px;
+  background-color: #5b9aa0;
+  margin-top: 30px;
+  margin-left: 100px;
+  color: #abcdfc;
+  transition-duration: 2.4ms;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+form .posi button:hover {
+  background-color: #078eaf;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

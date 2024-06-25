@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("img/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+    font-family: font;
+    font-size: 15px;
+  }
+  
+  @font-face {
+    font-family: font;
+    src: url(fonts/zemke-hand-itc.ttf);
+  }
+  
+  
+  .posici {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+  }
+  
+  nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    background-color: #7a1db8;
+    color: rgb(246, 255, 0);
+    text-decoration: none;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    font-size: 12px;
+    margin-right: 70px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: #e765f8;
+  }
+  
+  nav a:hover {
+    background-color: #e709ef;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .test {
+    display: flex;
+    background-color: #7a1db8;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .container {
+    background-color: #7a1db8;
+    width: 400px;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .container .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .container .banner img {
+    width: 150px;
+    border: 10px solid rgb(163, 42, 200);
+    border-radius: 100%;
+    margin-top: 40px;
+    padding: 5px;
+  }
+  
+  form {
+    width: 400px;
+    height: 400px;
+    background-color: #a54ec0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  form .posi {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form .posi input {
+    border-radius: 5px;
+    height: 30px;
+  }
+  
+  form .posi button a {
+    text-decoration: none;
+    color: yellow;
+  }
+  
+  form .posi button {
+    width: 100px;
+    height: 60px;
+    background-color: #7a1db8;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: yellow;
+    transition-duration: 2.4ms;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  form .posi button:hover {
+    background-color: #4a0877;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }

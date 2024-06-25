@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: gray;
+  font-family: font;
+}
+
+@font-face {
+  font-family: font;
+  src: url(fonts/zemke-hand-itc.ttf);
+}
+
+nav {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+nav #Titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+nav .Conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+
+th {
+  background-color: black;
+  color: white;
+  border-top: 1px solid white;
+}
+
+table, th, td {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  padding-left: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+tr:hover {
+  background-color: coral;
+}
+
+
+.alinha {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin-top: 10px;
+  padding: 0;
+}

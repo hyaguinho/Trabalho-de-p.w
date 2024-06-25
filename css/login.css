@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("img/noite.gif");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: font;
+    font-size: 14px;
+  }
+  
+  @font-face {
+    font-family: font;
+    src: url(fonts/zemke-hand-itc.ttf);
+  }
+
+  .posici {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+  }
+
+  nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    background-color: #b3b3b3;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    font-size: 12px;
+    margin-right: 70px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: #1d1c1c;
+  }
+  
+  nav a:hover {
+    background-color:  #1d1c1c;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  .test {
+    display: flex;
+    background-color: #262626;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .container {
+    background-color: #262626;
+    width: 400px;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: azure;
+  }
+  
+  .container .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .container .banner img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+    padding: 5px;
+  }
+  
+  form {
+    width: 400px;
+    height: 400px;
+    background-color: #b3b3b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    color: #262626;
+  }
+  
+  form .posi {
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  
+  form .posi input {
+    border-radius: 5px;
+    height: 20px;
+  }
+  
+  #capa {
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+  }
+  
+  form .posi button {
+    width: 100px;
+    height: 40px;
+    background-color: #cccccc;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    color: black;
+    transition-duration: 2.4ms;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  form .posi button:hover {
+    background-color: #999999;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }

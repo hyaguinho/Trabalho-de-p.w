@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastrousers.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <title>Pagina cadastro de Usuarios</title>
+</head>
+<body>
+
+    <nav>
+        <a href="paglogin.html">Entrar</a>
+    </nav>
+
+    <div class="posici">
+        <div class="test">
+            <div class="container">
+                <div class="banner">
+                    <img src="img/cadeado.png" alt="Cadeado">
+                    <h1>Olá, Sejá Bem-Vindo(a) 👋</h1>
+                    <h4>Bora Se Cadastrar?</h4>
+                </div>
+            </div>
+
+            <form action="insert.php" method="post">
+                <div class="posi">
+                    <label>Nome:</label>
+                    <input name="nome" type="text" placeholder="Nome">
+
+                    <label>Senha:</label>
+                    <input name="senha" type="password" placeholder="Senha">
+
+                    <label>Endereço:</label>
+                    <input name="endereco" type="text" placeholder="Endereço">
+
+                    <label>Email:</label>
+                    <input name="email" type="email" placeholder="Email">
+
+                    <label>Data de Nascimento:</label>
+                    <input name="data_nascimento" type="date" placeholder="Data-Nascimento">
+
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
