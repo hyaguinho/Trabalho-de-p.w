@@ -34,7 +34,7 @@
         $stmt->execute([
             ':id' => $_SESSION['id']
         ]);
-    ?>
+   ?>
 
     <div class="alinha">
         <table>
@@ -49,22 +49,22 @@
                 <th>Excluir</th>
                 <th>Editar</th>
             </tr>
-            <?php while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) { ?>
+            <?php while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {?>
             <tr>
-                <td><img src="<?= $row['capa'] ?>" alt="" width="100px" height="100px"></td>
-                <td><?= $row['nome'] ?></td>
-                <td><?= $row['autor'] ?></td>
-                <td><?= $row['titulo'] ?></td>
-                <td><?= $row['subtitulo'] ?></td>
-                <td><?= $row['edicao'] ?></td>
-                <td><?= $row['data_de_publicacao'] ?></td>
-                <td> <form action="Delete.php" method="post">
-                <input type="hidden" name="id" value="<?= $id['id']?>">
+                <td><img src="<?= $row['capa']?>" alt="" width="200px" height="100px"></td>
+                <td><?= $row['nome']?></td>
+                <td><?= $row['autor']?></td>
+                <td><?= $row['titulo']?></td>
+                <td><?= $row['subtitulo']?></td>
+                <td><?= $row['edicao']?></td>
+                <td><?= $row['data_de_publicacao']?></td>
+                <td> <form action="Delete.php" method="get">
+                <input type="hidden" name="id" value="<?= $row['id']?>">
                 <button type="submit">🗑️</button>
                 </form></td>
-                <td><a href="#">✏️</a></td>
+                <td><a href="editarlivros.php?id=$row[id]">✏️</a></td>
             </tr>
-            <?php } ?>
+            <?php }?>
         </table>
         
     </div>
