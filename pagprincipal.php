@@ -58,11 +58,15 @@
                 <td><?= $row['subtitulo'] ?></td>
                 <td><?= $row['edicao'] ?></td>
                 <td><?= $row['data_de_publicacao'] ?></td>
-                <td><a href="#">🗑️</a></td>
+                <td> <form action="Delete.php" method="post">
+                <input type="hidden" name="id" value="<?= $id['id']?>">
+                <button type="submit">🗑️</button>
+                </form></td>
                 <td><a href="#">✏️</a></td>
             </tr>
             <?php } ?>
         </table>
+        
     </div>
 
 </body>

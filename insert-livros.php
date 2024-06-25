@@ -4,7 +4,7 @@
 require_once 'Conexão.php'; // Inclui o arquivo de conexão
 
 
-global $pdo; // Inixializa o objeto PDO
+global $pdo; // Inicializa o objeto PDO
 
 
 session_start();// Inicia a sessão
